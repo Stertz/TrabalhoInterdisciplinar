@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AzulCrypto"
+    android:backgroundTint="@color/AzulCrypto"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".InformacoesUsuario"
+    tools:showIn="@layout/activity_informacoes_usuario">
+
+    <!--NOME DO USUARIO-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:background="@color/AzulCrypto"
+        android:text="Nome do Usuário: "
+        android:textColor="#d9d9d9"/>
+
+    <TextView
+        android:id="@+id/tvNomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOME DO USUARIO"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <!--ID DO USUARIO-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/AzulCrypto"
+        android:text="ID Usuário: "
+        android:textColor="#d9d9d9"/>
+
+    <TextView
+        android:id="@+id/tvIdUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID DO USUARIO"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <!--ID DO USUARIO-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/AzulCrypto"
+        android:text="E-Mail: "
+        android:textColor="#d9d9d9"/>
+
+    <TextView
+        android:id="@+id/tvEmailInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="exemplo@ex.com"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <!--ID DO USUARIO-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="1dp"
+        android:background="@color/AzulCrypto"
+        android:text="Data de Nascimento: "
+        android:textColor="#d9d9d9"/>
+
+    <TextView
+        android:id="@+id/tvDateNasc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="07/05/2002"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

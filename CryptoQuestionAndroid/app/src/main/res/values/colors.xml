@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="AzulCrypto">#0389A6</color>
+    <color name="amareloCrypto">#FFBD22</color>
+    <color name="azulescurocrypto">#023E74</color>
+</resources>

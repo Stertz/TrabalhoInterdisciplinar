@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Questionar"
+    android:background="@color/AzulCrypto"
+    tools:showIn="@layout/activity_questionar"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPublicar"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#D9D9D9"
+        android:hint="Faça a sua pergunta..."/>
+
+</LinearLayout>

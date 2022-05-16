@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Crypto Question</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_red_senha1">RedSenha1Activity</string>
+    <string name="title_activity_red_senha2">RedSenha2Activity</string>
+    <string name="title_activity_red_senha3">RedSenha3Activity</string>
+    <string name="title_activity_cadastro">CadastroActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_entrar_cadastrar">EntrarCadastrarActivity</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="entre_para_continuar">Entre para continuar</string>
+    <string name="senha">Senha:</string>
+    <string name="esqueci_a_senha">Esqueci a senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="title_activity_to_ask">ToAskActivity</string>
+    <string name="title_activity_publicar">Publicar</string>
+    <string name="title_activity_questionar">Questionar</string>
+    <string name="title_activity_informacoes_usuario">Informações do Usuário</string>
+</resources>
